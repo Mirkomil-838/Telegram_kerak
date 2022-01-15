@@ -137,7 +137,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompresseManifestStaticFilesStorage'
 
 
 
-
+df = pd.read_csv(path, engine='python')
 
 
 
