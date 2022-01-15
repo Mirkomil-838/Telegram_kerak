@@ -7,6 +7,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
+import codecs
+with codecs.open(file_name, 'r', encoding='utf-8',
+                 errors='ignore') as fdata:
+
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
